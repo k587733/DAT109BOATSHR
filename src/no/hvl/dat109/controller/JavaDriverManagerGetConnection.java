@@ -13,7 +13,7 @@ public class JavaDriverManagerGetConnection {
             Class.forName("no.hvl.dat109");
             url = "jdbc:postgresql://localhost:5432/postgres";
             name = "postgres@localhost";
-            pass = "Hallaballa99";
+            pass = "";
 
             con = DriverManager.getConnection(url, name, pass);
 
